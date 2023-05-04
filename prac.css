@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+:root{
+    --main-bg-color: #5ca5cc;
+}
+*{
+    width: 100%;
+  
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    
+    
+}
+header{
+ 
+    background: var(--main-bg-color);
+    
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 120px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 17px;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+nav ul li a:hover{
+    color: rgb(179, 14, 14);
+   font-weight: bold;
+}
+.btn{
+    color: white;
+    padding: 34px 34px 34px 34px;
+    align-items: center;
+   justify-content: center;
+    padding: 0 34px;
+    display: flex;
+  margin: 0 450px;
+ 
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*.btn:hover{
+    display: flex;
+    background: rgb(219, 26, 12);
+    color: white;
+    padding: 34px 34px 34px 34px;
+    align-items: center;
+   justify-content: center;
+   
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}*/
+main{
+    background-image: url('bgoverall.png');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+ 
+}
+main .right-sec{
+    display: flex;
+	padding-right: 70px;
+
+}
+
+main .left-sec{
+	padding-left: 10vw;
+	padding-top: 20vh;
+   
+}
+.left-sec h2{
+	font-size: 2vw;
+	text-transform: capitalize;
+	font-weight: lighter;
+	color: #242424;
+}
+.left-sec h1{
+	font-size: 3vw;
+	text-transform: capitalize;
+	font-weight: 700;
+	color: #242424;
+	margin: 12px 0;
+}
+.left-sec button{
+	color: white;
+	padding: 10px 45px;
+	text-transform: uppercase;
+	border: none;
+	text-align: center;
+	font-size: 1.25vw;
+	border-radius: 10px;
+	background-color: skyblue;
+	margin: 12px 0;
+}
+.left-sec button:hover{
+    background-color: rgb(252, 56, 7);
+}     
+footer{
+    height: 5vh;
+    background-color: var(--main-bg-color);
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-top: 3vh;
+    
+}
