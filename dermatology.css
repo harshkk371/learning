@@ -1,0 +1,35 @@
+
+h1{
+    color: blue;
+  
+}
+h2{
+    color: black;
+    display: flex;
+  
+}
+button{
+    
+	margin-left: 500px;
+	text-transform: uppercase;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 1.50vw;
+text-decoration: none;
+
+background-color:white;
+
+	
+}
+button:hover{
+    color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 2px solid red;
+	
+	text-align: center;
+	font-size: 1.50vw;
+font-weight: bold;
+
+	
+}
